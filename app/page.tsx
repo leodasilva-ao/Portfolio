@@ -38,7 +38,7 @@ export default function HomePage() {
       <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="font-bold text-xl text-primary">Portfolio</div>
+            <a href="#home"><div className="font-bold text-xl text-primary">Portfolio</div></a>
             <div className="hidden md:flex space-x-8 items-center">
               <Link href="#home" className="text-foreground hover:text-primary transition-colors">
                 Home
